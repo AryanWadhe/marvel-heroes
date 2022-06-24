@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+:root {
+    --hoverColor: #05b3fe ;
+}
+
+
+
+
+
+body {
+    --color-text: #858898;
+    --color-bg: #231e20;
+    --color-link: #fff;
+    --color-link-hover: #858898;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: quasimoda, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* #0F0F0F; */
+    /* cursor: grab; */
+    /* cursor: url(download.png); */
+    cursor: url(download.png),auto;
+}
+#cur{
+    width: 32px ;
+    height: 32px;
+}
+#spider {
+    width: 80.4%;
+    height: 40.5%;
+    transition: 0.4s;
+    margin-left: 10%;
+    
+}
+
+.main_content__title-first {
+    font-family: 'Mr Dafoe';
+    margin-left: 100%;
+    margin-top: -30%;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+    transition: 0.5s;
+}
+
+.main_content__title-first:hover {
+    text-shadow: 0 0 1em #fff, 0 0 0.2em var(--hoverColor) , 0 0 1em #fe05e1;
+    color: white;
+    transition: 0.5s;
+    /* #05b3fe */
+}
+.main_content {
+    max-width: 1200%;
+    margin-right: 45%;
+    flex-wrap: wrap;
+    justify-items: center;
+    text-align: center;
+}
+
+.main_content__title {
+    width: 100%;
+    grid-column: 1 / span 3;
+    font-size: 9vw;
+    margin: 10vh 0 0;
+    line-height: 0.65;
+}
+
+.main_content__title-first {
+    display: block;
+    text-transform: uppercase;
+    font-family: forma-djr-deck, sans-serif;
+    font-weight: 500;
+}
+
+#spider:hover {
+    position: relative;
+    height: 60%;
+    width: 90%;
+    transition: 0.4s;
+    border-radius: 100px;
+    border: 5px outset ;
+    /* border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%)1 ; */
+}
+.main_text{
+    font-size: 100%;
+    color: #0F0F0F;
+}
+.main-text{
+    font-size: 120%;
+    /* font-style: oblique; */
+    font-family:monospace;
+    color: rgb(116, 29, 5);
+}

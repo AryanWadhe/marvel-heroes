@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+.body_2 {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.card {
+    position: relative;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 3% 5%;
+    background: #cec6bf;
+    cursor: pointer;
+}
+
+.card:hover {
+    height: 60%;
+    transition: 0.3s;
+
+}
+
+
+.imgboxes {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    transform: translateY(-50px);
+    z-index: 99;
+    
+    
+}
+.card>.card-main_content:hover {
+    opacity: 1;
+    /* transform: translateY(-10px); */
+    /* transform: translateX(-100px); */
+}
+
+#hulk-1 {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-main_content {
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-5%);
+    /* opacity: 0; */
+    transition: 0.3s;
+}
+
+#carouselExampleControls>button.carousel-control-next>span.carousel-control-next-icon {
+    /* color: rgb(68, 0, 255); */
+    background-color: rgb(235, 228, 36);
+}
+
+#carouselExampleControls>button.carousel-control-prev>span.carousel-control-prev-icon {
+    background-color: rgb(235, 228, 36);
+}
